@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Highlights — BAPS @ UVA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#1827E8;
+  --blue-mid:#455adf;
+  --blue-dark:#0f1a99;
+  --sky:#5b70f0;
+  --periwinkle:#bfc4f5;
+  --lavender:#f0f1fc;
+  --white:#ffffff;
+  --gold:#e5c455;
+  --gold-bright:#f7c82c;
+  --gold-deep:#c9980a;
+  --ink:#1c1c1c;
+}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  margin:0;
+  background:transparent;
+  font-family:'Montserrat',sans-serif;
+  color:var(--ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+#baps-home{
+  width:100%;
+  background:transparent;
+  overflow-x:hidden;
+}
+#baps-home a{
+  color:inherit;
+  text-decoration:none;
+}
+#baps-home .wrap{
+  max-width:1200px;
+  width:100%;
+  margin:0 auto;
+  padding:0 24px;
+}
+#baps-home h1,
+#baps-home h2,
+#baps-home h3{
+  font-family:'Merriweather',serif;
+  font-weight:900;
+  color:var(--blue);
+  line-height:1.15;
+  margin:0;
+}
+/* =========================================================
+   SITE HEADER (full-bleed photo hero — same as Our Team)
+   ========================================================= */
+#baps-home .team-hero{
+  position:relative;
+  min-height:clamp(320px,46vw,520px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  overflow:hidden;
+  background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Photos/IMG_0005.jpg');
+  background-size:cover;
+  background-position:center;
+}
+#baps-home .team-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(120,86,10,.3) 0%, rgba(120,86,10,.45) 60%, rgba(120,86,10,.62) 100%);
+}
+#baps-home .team-hero-inner{
+  position:relative;
+  z-index:1;
+  max-width:760px;
+  margin:0 auto;
+  padding:0 24px;
+}
+#baps-home .team-hero h1{
+  font-size:50px;
+  font-weight:900;
+  color:var(--white);
+  line-height:1.05;
+}
+/* =========================================================
+   TYPOGRAPHY (same scale as home / our team)
+   ========================================================= */
+#baps-home .t-h1{
+  font-size:34px;
+  font-weight:900;
+}
+#baps-home .t-h3{
+  font-size:21px;
+  font-weight:700;
+  line-height:1.35;
+  color:var(--blue-mid);
+}
+#baps-home .t-body{
+  font-size:15.5px;
+  font-weight:400;
+  line-height:1.7;
+  color:#333546;
+}
+#baps-home .t-lead{
+  font-size:18px;
+  font-weight:400;
+  line-height:1.75;
+}
+#baps-home .t-small{
+  display:block;
+  font-family:'Montserrat',sans-serif;
+  font-size:18px;
+  font-weight:700;
+  letter-spacing:1.1px;
+  text-transform:uppercase;
+  color:var(--gold-deep);
+}
+/* =========================================================
+   SECTION SHELL
+   ========================================================= */
+#baps-home .section-head{
+  max-width:700px;
+  margin-bottom:24px;
+}
+#baps-home .section-head .t-small{
+  margin-bottom:6px;
+}
+#baps-home .section-head p{
+  margin-top:9px;
+  color:var(--ink);
+}
+#baps-home .section-pad{
+  padding:44px 0;
+  background:transparent;
+}
+#baps-home .section-pad.white{
+  background:var(--white);
+}
+#baps-home .section-pad.lav{
+  background:var(--lavender);
+}
+#baps-home .section-pad.dark-blue{
+  background:var(--blue-dark);
+}
+#baps-home .wave-divider{
+  display:block;
+  width:100%;
+  line-height:0;
+}
+#baps-home .wave-divider svg{
+  display:block;
+  width:100%;
+  height:52px;
+}
+/* =========================================================
+   TABLE OF CONTENTS
+   ========================================================= */
+#baps-home .toc-panel{
+  padding:8px 0 28px;
+}
+#baps-home .toc-panel > .t-small{
+  margin:20px 0 14px;
+  font-size:20px;
+  color:var(--gold-bright);
+}
+#baps-home .toc-group{
+  border-top:1px solid rgba(255,255,255,.18);
+}
+#baps-home .toc-group:last-of-type{
+  border-bottom:1px solid rgba(255,255,255,.18);
+}
+#baps-home .toc-group summary{
+  list-style:none;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:16px 4px;
+}
+#baps-home .toc-group summary::-webkit-details-marker{
+  display:none;
+}
+#baps-home .toc-group summary::marker{
+  content:"";
+}
+#baps-home .toc-group-label{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+}
+#baps-home .toc-group-label .toc-year{
+  font-family:'Merriweather',serif;
+  font-weight:900;
+  font-size:21px;
+  color:var(--white);
+}
+#baps-home .toc-group-label .count{
+  font-family:'Montserrat',sans-serif;
+  font-weight:700;
+  font-size:16px;
+  color:var(--gold-bright);
+}
+#baps-home .toc-chevron{
+  font-size:16px;
+  color:var(--gold-bright);
+  transition:transform .2s ease;
+  flex-shrink:0;
+}
+#baps-home .toc-group[open] .toc-chevron{
+  transform:rotate(180deg);
+}
+#baps-home .toc-clients{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:2px 4px 18px;
+}
+#baps-home .toc-client{
+  display:inline-flex;
+  align-items:center;
+  font-family:'Montserrat',sans-serif;
+  font-weight:600;
+  font-size:16.5px;
+  color:var(--white);
+  background:rgba(255,255,255,.08);
+  border:1.5px solid rgba(255,255,255,.25);
+  border-radius:999px;
+  padding:8px 16px;
+  cursor:pointer;
+  transition:transform .15s ease, background .15s ease, color .15s ease, border-color .15s ease;
+}
+#baps-home .toc-client:hover{
+  background:var(--gold-bright);
+  color:#4a3400;
+  border-color:var(--gold-bright);
+  transform:translateY(-2px);
+}
+/* =========================================================
+   SEMESTER / YEAR SECTIONS
+   ========================================================= */
+#baps-home .semester-block{
+  margin-top:52px;
+  scroll-margin-top:24px;
+}
+#baps-home .semester-block:first-of-type{
+  margin-top:36px;
+}
+#baps-home .semester-title{
+  display:flex;
+  align-items:baseline;
+  gap:14px;
+  margin-bottom:28px;
+  padding-bottom:16px;
+  border-bottom:2px solid var(--periwinkle);
+}
+#baps-home .semester-title h2{
+  font-size:34px;
+}
+#baps-home .semester-title .semester-tag{
+  font-family:'Montserrat',sans-serif;
+  font-weight:700;
+  font-size:16px;
+  letter-spacing:0.6px;
+  text-transform:uppercase;
+  color:var(--gold-deep);
+}
+/* =========================================================
+   PROJECT CARDS
+   ========================================================= */
+#baps-home .project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(340px, 1fr));
+  gap:26px;
+}
+#baps-home .project-card{
+  background:var(--white);
+  border:1.5px solid var(--periwinkle);
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 14px 28px -18px rgba(24,39,232,.22);
+  display:flex;
+  flex-direction:column;
+  scroll-margin-top:24px;
+}
+#baps-home .project-photo{
+  width:100%;
+  aspect-ratio:16/9;
+  background-color:var(--lavender);
+  border-bottom:1.5px solid var(--periwinkle);
+  background-size:cover;
+  background-position:center;
+}
+#baps-home .project-body{
+  padding:22px 24px 24px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+#baps-home .project-tag{
+  font-family:'Montserrat',sans-serif;
+  font-weight:700;
+  font-size:14px;
+  letter-spacing:0.7px;
+  text-transform:uppercase;
+  color:var(--gold-deep);
+}
+#baps-home .project-body p{
+  margin:0;
+}
+#baps-home .project-attr{
+  margin-top:2px;
+  font-family:'Montserrat',sans-serif;
+  font-style:italic;
+  font-size:13.5px;
+  color:#6b6e87;
+}
+/* =========================================================
+   FOOTER (identical to home / our team page)
+   ========================================================= */
+#baps-home .footer{
+  background:var(--blue);
+}
+#baps-home .footer-bar{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  padding:26px 24px;
+}
+#baps-home .footer-brand .footer-name{
+  font-family:'Merriweather',serif;
+  font-weight:900;
+  font-size:clamp(20px,3vw,28px);
+  color:var(--white);
+}
+#baps-home .footer-brand .footer-tag{
+  font-family:'Montserrat',sans-serif;
+  font-weight:700;
+  font-size:clamp(14px,1.8vw,17px);
+  color:var(--gold-bright);
+  margin-top:4px;
+}
+#baps-home .footer-connect{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:8px;
+}
+#baps-home .connect-label{
+  font-family:'Montserrat',sans-serif;
+  font-size:14px;
+  color:var(--white);
+}
+#baps-home .connect-icons{
+  display:flex;
+  gap:10px;
+}
+#baps-home .connect-icons a{
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  background:var(--white);
+  color:var(--blue);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:transform .15s ease, background .15s ease, color .15s ease;
+}
+#baps-home .connect-icons a:hover{
+  background:var(--gold-bright);
+  color:#4a3400;
+  transform:translateY(-2px);
+}
+#baps-home .connect-icons svg{
+  width:17px;
+  height:17px;
+}
+@media (max-width:640px){
+  #baps-home .footer-bar{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  #baps-home .footer-connect{
+    align-items:flex-start;
+  }
+}
+@media (prefers-reduced-motion:reduce){
+  #baps-home *{
+    animation:none !important;
+    transition:none !important;
+    scroll-behavior:auto !important;
+  }
+}
+</style>
+</head>
+<body>
+<div id="baps-home">
+
+<!-- =========================================================
+     HEADER ("Project Highlights" hero)
+     ========================================================= -->
+<header class="team-hero">
+  <div class="team-hero-inner">
+    <h1>Project Highlights</h1>
+  </div>
+</header>
+
+<!-- =========================================================
+     TABLE OF CONTENTS
+     ========================================================= -->
+<section class="section-pad dark-blue">
+  <div class="wrap">
+    <div class="toc-panel">
+      <span class="t-small">Jump to a project</span>
+
+      <details class="toc-group" open>
+        <summary>
+          <span class="toc-group-label"><span class="toc-year">Spring 2026</span> <span class="count">· 6 clients</span></span>
+          <span class="toc-chevron">▾</span>
+        </summary>
+        <div class="toc-clients">
+          <button type="button" class="toc-client" data-target="card-1">Virginia Discovery Museum</button>
+          <button type="button" class="toc-client" data-target="card-2">MD Ortho</button>
+          <button type="button" class="toc-client" data-target="card-3">SWAT</button>
+          <button type="button" class="toc-client" data-target="card-4">The For Good Project</button>
+          <button type="button" class="toc-client" data-target="card-5">Societal AI</button>
+          <button type="button" class="toc-client" data-target="card-6">Virginia AI Safety Initiative</button>
+        </div>
+      </details>
+
+      <details class="toc-group">
+        <summary>
+          <span class="toc-group-label"><span class="toc-year">Fall 2025</span> <span class="count">· 7 clients</span></span>
+          <span class="toc-chevron">▾</span>
+        </summary>
+        <div class="toc-clients">
+          <button type="button" class="toc-client" data-target="card-7">MD Ortho</button>
+          <button type="button" class="toc-client" data-target="card-8">Robin</button>
+          <button type="button" class="toc-client" data-target="card-9">NSBE</button>
+          <button type="button" class="toc-client" data-target="card-10">SWAT</button>
+          <button type="button" class="toc-client" data-target="card-11">PSP</button>
+          <button type="button" class="toc-client" data-target="card-12">SWAP</button>
+          <button type="button" class="toc-client" data-target="card-13">MYLK</button>
+        </div>
+      </details>
+
+      <details class="toc-group">
+        <summary>
+          <span class="toc-group-label"><span class="toc-year">2024–2025</span> <span class="count">· 6 clients</span></span>
+          <span class="toc-chevron">▾</span>
+        </summary>
+        <div class="toc-clients">
+          <button type="button" class="toc-client" data-target="card-14">Food Assist</button>
+          <button type="button" class="toc-client" data-target="card-15">Josie's Way</button>
+          <button type="button" class="toc-client" data-target="card-16">Madison House</button>
+          <button type="button" class="toc-client" data-target="card-17">SWAP</button>
+          <button type="button" class="toc-client" data-target="card-18">UVA Wheelchair Tennis</button>
+          <button type="button" class="toc-client" data-target="card-19">YellowRed</button>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="wave-divider" style="background:var(--blue-dark);">
+  <svg viewBox="0 0 1440 52" preserveAspectRatio="none"><path d="M0,20 C240,60 480,0 720,20 C960,40 1200,0 1440,20 L1440,52 L0,52 Z" fill="var(--lavender)"></path></svg>
+</div>
+
+<!-- =========================================================
+     SPRING 2026
+     ========================================================= -->
+<section class="section-pad lav">
+  <div class="wrap">
+    <div class="semester-block" id="spring-2026">
+      <div class="semester-title">
+        <h2>Spring 2026</h2>
+        <span class="semester-tag">6 clients</span>
+      </div>
+      <div class="project-grid">
+        <div class="project-card" id="card-1">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_32_VADM-Organization-Final-Presentation.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">3 project teams · Outreach, Organization & Onboarding</span>
+            <h3 class="t-h3">Virginia Discovery Museum</h3>
+            <p class="t-body">Three BAPS teams partnered with the Virginia Discovery Museum this spring — covering outreach strategy, internal organizational structure, and volunteer onboarding — to help the museum grow its community reach and streamline day-to-day operations.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-2">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_26_BAPS-x-MD-Ortho-System-Design-Presentation.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">2 project teams · System Design & Marketing</span>
+            <h3 class="t-h3">MD Ortho</h3>
+            <p class="t-body">Building on last semester's work, two teams continued partnering with MD Ortho — one focused on system design, and a second on media and marketing strategy — to further improve adoption of their virtual care platform.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-3">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_25_BAPS-X-SWAT-Final-presentation.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Final Presentation</span>
+            <h3 class="t-h3">SWAT</h3>
+            <p class="t-body">BAPS continued its partnership with SWAT into the spring, wrapping up the semester's systems work with a final presentation of recommendations and deliverables.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-4">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_27_BAPS-x-The-For-Good-Project-Final-Deliverable.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">3 project teams · Strategy, Dues & Web Development</span>
+            <h3 class="t-h3">The For Good Project</h3>
+            <p class="t-body">Three teams worked with The For Good Project this spring, covering a final strategic deliverable, a dues tracking and strategy proposal, and a full website build — together supporting the organization's “collective for change” mission.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-5">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_30_Societal-AI-Funding-Presentation-1.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Funding Strategy</span>
+            <h3 class="t-h3">Societal AI</h3>
+            <p class="t-body">Our team developed a funding strategy presentation for Societal AI to help support the organization's continued growth and mission.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-6">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_33_VAISI-Project.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Project Overview</span>
+            <h3 class="t-h3">Virginia AI Safety Initiative</h3>
+            <p class="t-body">Our team partnered with the Virginia AI Safety Initiative on a project supporting the organization's mission to advance safe and responsible AI development at UVA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FALL 2025
+     ========================================================= -->
+<section class="section-pad white">
+  <div class="wrap">
+    <div class="semester-block" id="fall-2025">
+      <div class="semester-title">
+        <h2>Fall 2025</h2>
+        <span class="semester-tag">7 clients</span>
+      </div>
+      <div class="project-grid">
+        <div class="project-card" id="card-7">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_18_MD-Ortho-Team-1.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Software Growth & Development</span>
+            <h3 class="t-h3">MD Ortho</h3>
+            <p class="t-body">Our team partnered with MD Ortho (virtual orthopedic care) to improve the utilization, adoption, and awareness of their software — specifically targeting older and less tech-savvy users. We built an automated messaging system for text/email reminders, a demonstrational sign-up video, and a feedback loop through a user experience survey.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-8">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_23_robin-presentation-Team-5.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Sponsorship & Marketing Strategy</span>
+            <h3 class="t-h3">Robin</h3>
+            <p class="t-body">This team partnered with Robin to improve the marketing of their internship/employment outreach platform. We explored strategies to expand Robin's reach at UVA, recommending targeted CIO outreach, high-impact TikTok and LinkedIn content scheduling, and SEO improvements for better website discovery.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-9">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_19_NSBE-Sponsorship-Proposal-Team-4.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">2 project teams · Sponsorship & Outreach</span>
+            <h3 class="t-h3">NSBE</h3>
+            <p class="t-body">Two BAPS teams partnered with NSBE this fall. One built a sponsorship proposal to help grow corporate partnerships and funding, while a second focused on broader outreach strategy — together supporting the chapter's ability to fund and expand its initiatives.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-10">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_15_BAPS-x-SWAT-Final-Deliverable-Team-9.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">2 project teams · Systems & Process Tools</span>
+            <h3 class="t-h3">SWAT</h3>
+            <p class="t-body">Two BAPS teams worked with SWAT this semester, developing internal tools and a final systems deliverable to help the organization run its operations more efficiently.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-11">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_13_BAPS-PSP-Opportunity-Curation-Tool-Team-11.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">2 project teams · Opportunity Curation & Selection Tools</span>
+            <h3 class="t-h3">PSP</h3>
+            <p class="t-body">Two teams built internal tools for PSP this fall — an opportunity curation tool and a selection tool — to streamline how the organization evaluates and manages incoming opportunities for its members.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-12">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_20_SWAP-Storage-project-Team-6.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Storage & Presentation Strategy</span>
+            <h3 class="t-h3">SWAP</h3>
+            <p class="t-body">Continuing BAPS's partnership with SWAP, this fall's team tackled a storage logistics project alongside a broader strategic presentation, building on the expansion and transition work from the previous year.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-13">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_16_Baps-Slide-Deck-Team-10.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Website Development</span>
+            <h3 class="t-h3">MYLK</h3>
+            <p class="t-body">Our team built a new website for Chocolate MYLK Club (“making young leaders knowledgable”) to help the organization establish an online presence and better reach and support young leaders.</p>
+          </div>
+        </div>      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     2024–2025
+     ========================================================= -->
+<section class="section-pad lav">
+  <div class="wrap">
+    <div class="semester-block" id="y-2024-2025">
+      <div class="semester-title">
+        <h2>2024–2025</h2>
+        <span class="semester-tag">6 clients</span>
+      </div>
+      <div class="project-grid">
+        <div class="project-card" id="card-14">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_01_Food-Assist.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Automated Tracking System</span>
+            <h3 class="t-h3">Food Assist</h3>
+            <p class="t-body">Our team built an automated tracking system for FoodAssist to help staff see when volunteers arrived and left their shifts throughout the week, replacing manual sign-in tracking with something reliable and easy to maintain.</p>
+          </div>
+        </div>
+        <div class="project-card" id="card-15">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_02_Josie-s-Way-Team-7.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">3 project teams · Educational Program Design</span>
+            <h3 class="t-h3">Josie's Way</h3>
+            <p class="t-body">“We were tasked with designing the educational program for Josie’s Way. We gathered student input through surveys, consulted with faculty experts across Engineering, Architecture, and Education, and studied successful project-based learning models at UVA and other universities. We ultimately proposed a semester-long, interdisciplinary course that emphasizes community impact, hands-on learning, and student ownership, and piloted early components through a design prototype in Reid Bailey’s class.”</p>
+            <span class="project-attr">— Shadaan</span>
+          </div>
+        </div>
+        <div class="project-card" id="card-16">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_05_Madison-House.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Process Automation</span>
+            <h3 class="t-h3">Madison House</h3>
+            <p class="t-body">“Our team worked with Madison House to streamline their background checking process, which was previously time-consuming and prone to human error. We built a tool that automatically filters out duplicate entries from uploaded spreadsheets and consolidates data into a single, clean file — reducing steps, minimizing human error, and simplifying the overall workflow.”</p>
+            <span class="project-attr">— Grace</span>
+          </div>
+        </div>
+        <div class="project-card" id="card-17">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_07_SWAP-Partnership-with-Utrecht-University.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">2 project teams · Exec Transition & Global Expansion</span>
+            <h3 class="t-h3">SWAP</h3>
+            <p class="t-body">“Our team partnered with SWAP to design a strategic expansion plan for launching a new chapter at Utrecht University, ultimately recommending a low-barrier pilot through a partnership with Utrecht’s Thrift Shack. A second team worked in parallel to improve SWAP’s executive transition process, helping the organization hand off institutional knowledge more smoothly between leadership teams.”</p>
+            <span class="project-attr">— Zane</span>
+          </div>
+        </div>
+        <div class="project-card" id="card-18">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_09_Wheelchair-Tennis-Networking-and-Fundraising.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">3 project teams · Recruitment, Fundraising & Media</span>
+            <h3 class="t-h3">UVA Wheelchair Tennis</h3>
+            <p class="t-body">“We developed a networking and fundraising strategy to sustain the UVA Wheelchair Tennis Club, proposing a multi-pronged plan including a joint tournament with Club Tennis and a UVARec takeover. Two additional teams focused on recruitment and exec team restructuring, and on media and events — together aiming to increase visibility and secure the club’s future at UVA.”</p>
+            <span class="project-attr">— Rachel & Carly</span>
+          </div>
+        </div>
+        <div class="project-card" id="card-19">
+          <div class="project-photo" style="background-image:url('https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_11_YellowRed-Client-Strategy.png');"></div>
+          <div class="project-body">
+            <span class="project-tag">Client Strategy & Outreach</span>
+            <h3 class="t-h3">YellowRed</h3>
+            <p class="t-body">“Our team created a comprehensive strategic outreach package to help YellowRed expand its presence on college campuses, including a client-facing slideshow of key student organization types, tailored outreach email templates, and polished presentation decks for each org type — giving YellowRed a complete toolkit for effective campus engagement.”</p>
+            <span class="project-attr">— Elias</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER (replicates native "Connect with Us" bar)
+     ========================================================= -->
+<footer class="footer">
+  <div class="wrap footer-bar">
+    <div class="footer-brand">
+      <div class="footer-name">BAPS @ UVA</div>
+      <div class="footer-tag">Become a Problem Solver</div>
+    </div>
+    <div class="footer-connect">
+      <span class="connect-label">Connect with Us</span>
+      <div class="connect-icons">
+        <a href="mailto:bapscontact@virginia.edu" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 6 12 13 2 6"></path></svg>
+        </a>
+        <a href="https://www.instagram.com/baps_at_uva/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/baps-at-uva/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><line x1="7" y1="10" x2="7" y2="17"></line><circle cx="7" cy="6.5" r="1" fill="currentColor" stroke="none"></circle><path d="M11 17v-4.5a2.5 2.5 0 0 1 5 0V17"></path><line x1="11" y1="10" x2="11" y2="17"></line></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+(function(){
+  var links = document.querySelectorAll('#baps-home .toc-client');
+  links.forEach(function(link){
+    link.addEventListener('click', function(){
+      var targetId = link.getAttribute('data-target');
+      var target = document.getElementById(targetId);
+      if(target){
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
