@@ -1,0 +1,181 @@
+{
+  "page": {
+    "title": "Project Highlights",
+    "tocLabel": "Jump to a project"
+  },
+  "semesters": [
+    {
+      "id": "spring-2026",
+      "label": "Spring 2026",
+      "sectionClass": "lav",
+      "projects": [
+        {
+          "id": "card-1",
+          "client": "Virginia Discovery Museum",
+          "tag": "3 project teams · Outreach, Organization & Onboarding",
+          "description": "Three BAPS teams partnered with the Virginia Discovery Museum this spring — covering outreach strategy, internal organizational structure, and volunteer onboarding — to help the museum grow its community reach and streamline day-to-day operations.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_32_VADM-Organization-Final-Presentation.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-2",
+          "client": "MD Ortho",
+          "tag": "2 project teams · System Design & Marketing",
+          "description": "Building on last semester's work, two teams continued partnering with MD Ortho — one focused on system design, and a second on media and marketing strategy — to further improve adoption of their virtual care platform.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_26_BAPS-x-MD-Ortho-System-Design-Presentation.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-3",
+          "client": "SWAT",
+          "tag": "Final Presentation",
+          "description": "BAPS continued its partnership with SWAT into the spring, wrapping up the semester's systems work with a final presentation of recommendations and deliverables.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_25_BAPS-X-SWAT-Final-presentation.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-4",
+          "client": "The For Good Project",
+          "tag": "3 project teams · Strategy, Dues & Web Development",
+          "description": "Three teams worked with The For Good Project this spring, covering a final strategic deliverable, a dues tracking and strategy proposal, and a full website build — together supporting the organization's “collective for change” mission.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_27_BAPS-x-The-For-Good-Project-Final-Deliverable.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-5",
+          "client": "Societal AI",
+          "tag": "Funding Strategy",
+          "description": "Our team developed a funding strategy presentation for Societal AI to help support the organization's continued growth and mission.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_30_Societal-AI-Funding-Presentation-1.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-6",
+          "client": "Virginia AI Safety Initiative",
+          "tag": "Project Overview",
+          "description": "Our team partnered with the Virginia AI Safety Initiative on a project supporting the organization's mission to advance safe and responsible AI development at UVA.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_33_VAISI-Project.png",
+          "attribution": ""
+        }
+      ]
+    },
+    {
+      "id": "fall-2025",
+      "label": "Fall 2025",
+      "sectionClass": "white",
+      "projects": [
+        {
+          "id": "card-7",
+          "client": "MD Ortho",
+          "tag": "Software Growth & Development",
+          "description": "Our team partnered with MD Ortho (virtual orthopedic care) to improve the utilization, adoption, and awareness of their software — specifically targeting older and less tech-savvy users. We built an automated messaging system for text/email reminders, a demonstrational sign-up video, and a feedback loop through a user experience survey.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_18_MD-Ortho-Team-1.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-8",
+          "client": "Robin",
+          "tag": "Sponsorship & Marketing Strategy",
+          "description": "This team partnered with Robin to improve the marketing of their internship/employment outreach platform. We explored strategies to expand Robin's reach at UVA, recommending targeted CIO outreach, high-impact TikTok and LinkedIn content scheduling, and SEO improvements for better website discovery.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_23_robin-presentation-Team-5.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-9",
+          "client": "NSBE",
+          "tag": "2 project teams · Sponsorship & Outreach",
+          "description": "Two BAPS teams partnered with NSBE this fall. One built a sponsorship proposal to help grow corporate partnerships and funding, while a second focused on broader outreach strategy — together supporting the chapter's ability to fund and expand its initiatives.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_19_NSBE-Sponsorship-Proposal-Team-4.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-10",
+          "client": "SWAT",
+          "tag": "2 project teams · Systems & Process Tools",
+          "description": "Two BAPS teams worked with SWAT this semester, developing internal tools and a final systems deliverable to help the organization run its operations more efficiently.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_15_BAPS-x-SWAT-Final-Deliverable-Team-9.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-11",
+          "client": "PSP",
+          "tag": "2 project teams · Opportunity Curation & Selection Tools",
+          "description": "Two teams built internal tools for PSP this fall — an opportunity curation tool and a selection tool — to streamline how the organization evaluates and manages incoming opportunities for its members.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_13_BAPS-PSP-Opportunity-Curation-Tool-Team-11.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-12",
+          "client": "SWAP",
+          "tag": "Storage & Presentation Strategy",
+          "description": "Continuing BAPS's partnership with SWAP, this fall's team tackled a storage logistics project alongside a broader strategic presentation, building on the expansion and transition work from the previous year.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_20_SWAP-Storage-project-Team-6.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-13",
+          "client": "MYLK",
+          "tag": "Website Development",
+          "description": "Our team built a new website for Chocolate MYLK Club (“making young leaders knowledgable”) to help the organization establish an online presence and better reach and support young leaders.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_16_Baps-Slide-Deck-Team-10.png",
+          "attribution": ""
+        }
+      ]
+    },
+    {
+      "id": "y-2024-2025",
+      "label": "2024–2025",
+      "sectionClass": "lav",
+      "projects": [
+        {
+          "id": "card-14",
+          "client": "Food Assist",
+          "tag": "Automated Tracking System",
+          "description": "Our team built an automated tracking system for FoodAssist to help staff see when volunteers arrived and left their shifts throughout the week, replacing manual sign-in tracking with something reliable and easy to maintain.",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_01_Food-Assist.png",
+          "attribution": ""
+        },
+        {
+          "id": "card-15",
+          "client": "Josie's Way",
+          "tag": "3 project teams · Educational Program Design",
+          "description": "“We were tasked with designing the educational program for Josie’s Way. We gathered student input through surveys, consulted with faculty experts across Engineering, Architecture, and Education, and studied successful project-based learning models at UVA and other universities. We ultimately proposed a semester-long, interdisciplinary course that emphasizes community impact, hands-on learning, and student ownership, and piloted early components through a design prototype in Reid Bailey’s class.”",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_02_Josie-s-Way-Team-7.png",
+          "attribution": "— Shadaan"
+        },
+        {
+          "id": "card-16",
+          "client": "Madison House",
+          "tag": "Process Automation",
+          "description": "“Our team worked with Madison House to streamline their background checking process, which was previously time-consuming and prone to human error. We built a tool that automatically filters out duplicate entries from uploaded spreadsheets and consolidates data into a single, clean file — reducing steps, minimizing human error, and simplifying the overall workflow.”",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_05_Madison-House.png",
+          "attribution": "— Grace"
+        },
+        {
+          "id": "card-17",
+          "client": "SWAP",
+          "tag": "2 project teams · Exec Transition & Global Expansion",
+          "description": "“Our team partnered with SWAP to design a strategic expansion plan for launching a new chapter at Utrecht University, ultimately recommending a low-barrier pilot through a partnership with Utrecht’s Thrift Shack. A second team worked in parallel to improve SWAP’s executive transition process, helping the organization hand off institutional knowledge more smoothly between leadership teams.”",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_07_SWAP-Partnership-with-Utrecht-University.png",
+          "attribution": "— Zane"
+        },
+        {
+          "id": "card-18",
+          "client": "UVA Wheelchair Tennis",
+          "tag": "3 project teams · Recruitment, Fundraising & Media",
+          "description": "“We developed a networking and fundraising strategy to sustain the UVA Wheelchair Tennis Club, proposing a multi-pronged plan including a joint tournament with Club Tennis and a UVARec takeover. Two additional teams focused on recruitment and exec team restructuring, and on media and events — together aiming to increase visibility and secure the club’s future at UVA.”",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_09_Wheelchair-Tennis-Networking-and-Fundraising.png",
+          "attribution": "— Rachel & Carly"
+        },
+        {
+          "id": "card-19",
+          "client": "YellowRed",
+          "tag": "Client Strategy & Outreach",
+          "description": "“Our team created a comprehensive strategic outreach package to help YellowRed expand its presence on college campuses, including a client-facing slideshow of key student organization types, tailored outreach email templates, and polished presentation decks for each org type — giving YellowRed a complete toolkit for effective campus engagement.”",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Projects/Thumb_11_YellowRed-Client-Strategy.png",
+          "attribution": "— Elias"
+        }
+      ]
+    }
+  ]
+}
