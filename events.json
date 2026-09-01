@@ -1,0 +1,57 @@
+{
+  "page": {
+    "title": "Events Calendar"
+  },
+  "events": [
+    {
+      "id": "evt-2026-09-03-gbm",
+      "title": "General Body Meeting",
+      "date": "2026-09-03",
+      "startTime": "6:00 PM",
+      "endTime": "7:00 PM",
+      "location": "Rice Hall, Room 032",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Events/Placeholder_GBM.jpg",
+      "description": "Weekly general body meeting \u2014 project team updates, a guest speaker, and time to connect with the rest of BAPS."
+    },
+    {
+      "id": "evt-2026-09-05-social",
+      "title": "New Member Social",
+      "date": "2026-09-05",
+      "startTime": "5:30 PM",
+      "endTime": "7:00 PM",
+      "location": "The Lawn",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Events/Placeholder_Social.jpg",
+      "description": "An informal hangout for new and prospective members to meet the exec board and current project teams."
+    },
+    {
+      "id": "evt-2026-09-10-workshop",
+      "title": "Systems Thinking Workshop",
+      "date": "2026-09-10",
+      "startTime": "7:00 PM",
+      "endTime": "8:30 PM",
+      "location": "Thornton Hall, A211",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Events/Placeholder_Workshop.jpg",
+      "description": "A hands-on intro to the systems engineering frameworks BAPS project teams use with clients."
+    },
+    {
+      "id": "evt-2026-09-17-client-checkin",
+      "title": "Client Check-In Day",
+      "date": "2026-09-17",
+      "startTime": "12:00 PM",
+      "endTime": "2:00 PM",
+      "location": "Newcomb Hall, Room 389",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Events/Placeholder_ClientCheckin.jpg",
+      "description": "Project teams meet with their clients for a mid-semester progress check-in."
+    },
+    {
+      "id": "evt-2026-09-17-gbm",
+      "title": "General Body Meeting",
+      "date": "2026-09-17",
+      "startTime": "6:00 PM",
+      "endTime": "7:00 PM",
+      "location": "Rice Hall, Room 032",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/Events/Placeholder_GBM.jpg",
+      "description": "Weekly general body meeting \u2014 project team updates, a guest speaker, and time to connect with the rest of BAPS."
+    }
+  ]
+}
