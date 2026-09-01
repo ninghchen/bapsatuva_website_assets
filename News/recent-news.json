@@ -1,0 +1,24 @@
+{
+  "news": [
+    {
+      "id": "news-2025-11-09-wtju",
+      "date": "2025-11-09",
+      "dateLabel": "Nov 9, 2025",
+      "title": "Katie Fidler on advancing systems engineering",
+      "description": "Featured on WTJU 91.1 FM discussing how BAPS applies systems engineering thinking to community service work.",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/News/News_FillerPhotoBlue.png",
+      "link": null,
+      "linkText": null
+    },
+    {
+      "id": "news-2025-11-20-vac",
+      "date": "2025-11-20",
+      "dateLabel": "Nov 20, 2025",
+      "title": "Pilot projects with Virginia Audio Collective",
+      "description": "A BAPS team partnered with Sound on Grounds / Virginia Audio Collective on a new round of pilot initiatives.",
+      "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/News/News_11092025.png",
+      "link": "https://www.virginiaaudio.com/soundongrounds/pilot-projects",
+      "linkText": "View project ↗"
+    }
+  ]
+}
