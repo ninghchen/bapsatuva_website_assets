@@ -1,0 +1,205 @@
+{
+  "year": "2026-27",
+  "roleGroups": [
+    {
+      "role": "Executive Director",
+      "solo": true,
+      "members": [
+        {
+          "name": "Lilie Puck-Karam",
+          "email": "ngb3vj@virginia.edu",
+          "linkedin": "https://www.linkedin.com/in/lilie-puck-karam/",
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_LilliePuckKaram.png",
+          "photoWidth": 336,
+          "photoHeight": 429
+        }
+      ]
+    },
+    {
+      "role": "Vice President of Operations",
+      "solo": false,
+      "members": [
+        {
+          "name": "Zane Abbud",
+          "email": "rnd3xm@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_ZaneAbbud.JPEG"
+        },
+        {
+          "name": "Dennis Ni",
+          "email": "cgh7bv@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_DennisNi.jpg"
+        }
+      ]
+    },
+    {
+      "role": "Project Management",
+      "solo": true,
+      "members": [
+        {
+          "name": "Will Apostolides",
+          "email": "ccb2nt@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_Will%20Apostolides.jpg"
+        }
+      ]
+    },
+    {
+      "role": "Director of Research",
+      "solo": true,
+      "members": [
+        {
+          "name": "Gabe Lawrence",
+          "email": "GabeL@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_GabeLawrence.png"
+        }
+      ]
+    },
+    {
+      "role": "Director of Recruitment",
+      "solo": false,
+      "members": [
+        {
+          "name": "Claire Bingham",
+          "email": "qkp8zb@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_ClaireBingham.png"
+        },
+        {
+          "name": "Ann Cherian",
+          "email": "vwa3tp@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_AnnCherian.png"
+        },
+        {
+          "name": "Emma Rose",
+          "email": "fhg8pg@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_EmmaRose.jpg"
+        }
+      ]
+    },
+    {
+      "role": "Director of Finance",
+      "solo": true,
+      "members": [
+        {
+          "name": "Marina Anderson",
+          "email": "fzf4zu@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_MarinaAnderson.jpg"
+        }
+      ]
+    },
+    {
+      "role": "Director of Outreach",
+      "solo": false,
+      "members": [
+        {
+          "name": "Kathryn Choi",
+          "email": "kpn4ya@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_KathrynChoi.jpg"
+        },
+        {
+          "name": "Sarah Gonzales",
+          "email": "pxd2qp@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_SarahGonzales.jpg"
+        },
+        {
+          "name": "Ciara Lynskey",
+          "email": "upc9vx@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_CiaraLynskey.jpeg"
+        },
+        {
+          "name": "Eve Nguyen",
+          "email": "kzq3sw@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_EveNguyen.jpg"
+        }
+      ]
+    },
+    {
+      "role": "Director of Events",
+      "solo": false,
+      "members": [
+        {
+          "name": "Alexa Stein",
+          "email": "guk7rh@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_AlexaStein.jpg"
+        },
+        {
+          "name": "Addy Young",
+          "email": "nxa9xa@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_AddyYoung.jpg"
+        },
+        {
+          "name": "Nithyasri Gopal",
+          "email": "tsd5gt@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_Nithya.jpg"
+        },
+        {
+          "name": "Preston Laird",
+          "email": "nmj9ru@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_PrestonLaird.png"
+        }
+      ]
+    },
+    {
+      "role": "Director of Social Media",
+      "solo": true,
+      "members": [
+        {
+          "name": "Mary Kathryn Watson",
+          "email": "dvu7xk@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_MKWatson.JPG"
+        }
+      ]
+    },
+    {
+      "role": "Director of Fundraising and Merch",
+      "solo": true,
+      "members": [
+        {
+          "name": "Anna Kain-Kuzniewski",
+          "email": "bsf8rd@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_AnnaKainKuzniewski.jpg"
+        }
+      ]
+    },
+    {
+      "role": "Web Design",
+      "solo": true,
+      "members": [
+        {
+          "name": "Hannah Chen",
+          "email": "nez9mb@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_HannahChen.JPG"
+        }
+      ]
+    },
+    {
+      "role": "Founder",
+      "solo": true,
+      "members": [
+        {
+          "name": "Katie Fidler",
+          "email": "bzf4pe@virginia.edu",
+          "linkedin": null,
+          "image": "https://raw.githubusercontent.com/ninghchen/bapsatuva_website_assets/main/ExecutiveBoard/Headshot_KatieFidler.png"
+        }
+      ]
+    }
+  ]
+}
